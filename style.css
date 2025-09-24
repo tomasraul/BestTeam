@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #b9b9b9;
+}
+main{
+    width: 85%;
+    margin: auto;
+}
+fieldset{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    border-radius: 16px;
+    border: none;
+}
+.formulario{
+    background-color: #f1eff1;
+    border: 2px solid rgb(235, 241, 222);
+    border-radius: 15px ;
+}
+fieldset > div{
+    padding: 5px;
+}
+.formulario > p{
+    text-align: right;
+    margin: 5px;
+}
+.num{
+    color: red;
+}
+.unidades{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+    border: 0.1px solid #afafaf;
+    
+    
+    width: 80%;
+    margin: auto;
+}
+.unityp{
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+.unity{
+    display: flex;
+    justify-content: space-around;
+}
+.unity > p{
+    background-color: #b0b0b3;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px dashed wheat;
+    cursor: pointer;
+    
+}
+#limpar{
+    position: relative;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    top: 38px;
+    cursor: pointer;
+}
+label{
+    font-weight: 700;
+    cursor: pointer;
+}
+input{
+    padding: 3px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.result{
+    border: 2px dashed black;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: justify;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.res{
+    border: #858484 solid 1px;
+    line-height: 2em;
+    padding: 5px;
+}
+.chapas{
+    border: 1px solid #858484;
+}
+footer{
+    background-color: gray;
+    padding: 4px;
+    text-align: center;
+    font-weight: lighter;
+    color: blue;
+}

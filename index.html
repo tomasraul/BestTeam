@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT-Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BT-Team Calculator</h1>
+    </header>
+    <main>
+        <section class="formulario">
+            <form action="">
+                <fieldset>
+                    <legend><strong>Informe as medidas</strong></legend>
+                    <div class="unidades">
+                        <div class="unityp">Unidade</div>
+                        <div class="unity">
+                            <p>
+                                <input type="radio" name="m" id="icm" checked>
+                                <label for="icm">cm</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="m" id="im">
+                                <label for="im">m</label>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="unidades">
+                        <div class="unityp">Comprimento de barrotes</div>
+                        <div class="unity">
+                            <p>
+                                <input type="radio" name="b" id="idq" checked>
+                                <label for="idq">4.0m</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="b" id="ids">
+                                <label for="ids">6.0m</label>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="idComprimento">Length:</label>
+                        <input type="number" name="comp" id="idComprimento">
+                    </div>
+                    <div>
+                        <label for="idLargura">Width:</label>
+                        <input type="number" name="lag" id="idLargura">
+                    </div>
+                </fieldset>
+                <p>
+                    <input type="reset" value="Limpar" id="limpar">
+                </p>
+            </form>
+            <p>
+                <button>Calculate</button>
+            </p>
+        </section>
+        <section class="result">
+            Resultados:
+            
+            
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Tomas Raul
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
