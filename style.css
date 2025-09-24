@@ -15,6 +15,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     background-color: #b9b9b9;
+    background-image: url(photo-1685495856559-5d96a0e51acb.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
 }
 main{
     width: 85%;
@@ -28,7 +33,7 @@ fieldset{
     border: none;
 }
 .formulario{
-    background-color: #f1eff1;
+    background-color: #b6abb6;
     border: 2px solid rgb(235, 241, 222);
     border-radius: 15px ;
 }
@@ -97,13 +102,14 @@ button{
     cursor: pointer;
 }
 .result{
-    border: 2px dashed black;
+    border: 2px dashed rgb(189, 250, 184);
     margin-top: 20px;
     border-radius: 10px;
     padding: 8px;
     text-align: justify;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
+    color: #dfccfa;
 }
 .res{
     border: #858484 solid 1px;
